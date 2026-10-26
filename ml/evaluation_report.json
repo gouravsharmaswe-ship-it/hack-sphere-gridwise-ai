@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "total_samples": 4000,
+    "train_samples": 3200,
+    "holdout_samples": 800,
+    "train_period": "2014-12-31 23:00:00 to 2015-05-14 06:00:00",
+    "holdout_period": "2015-05-14 07:00:00 to 2015-06-16 14:00:00",
+    "split_method": "Chronological (First 80% train, last 20% holdout)",
+    "target": "target_demand_kw"
+  },
+  "models": {
+    "Starter Formula Baseline": {
+      "rmse": 45.8505785628378,
+      "mae": 31.214202438530055,
+      "r2": 0.4373180222528792
+    },
+    "Hourly Seasonal Mean Baseline": {
+      "rmse": 48.7555191046073,
+      "mae": 40.38944551888116,
+      "r2": 0.3637600511959008
+    },
+    "Ridge Regression Pipeline": {
+      "rmse": 27.84726529506976,
+      "mae": 21.465777756999668,
+      "r2": 0.7924424816212907
+    },
+    "Gradient Boosting Regressor": {
+      "rmse": 12.470108884918925,
+      "mae": 9.803603095513584,
+      "r2": 0.9583788710360248
+    }
+  },
+  "best_model": "Gradient Boosting Regressor",
+  "best_holdout_metrics": {
+    "rmse": 12.470108884918925,
+    "mae": 9.803603095513584,
+    "r2": 0.9583788710360248
+  }
+}

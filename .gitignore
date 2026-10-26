@@ -1,0 +1,30 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases & local state
+*.db
+*.sqlite3
+gridwise_history.db
+
+# Secrets & environment
+.env
+*.pem
+*.key
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+
+# Temporary outputs
+predictions.csv
+output/

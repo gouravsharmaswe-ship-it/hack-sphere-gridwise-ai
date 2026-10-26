@@ -1,0 +1,15 @@
+[
+  "hour",
+  "month",
+  "day_of_week",
+  "is_weekend",
+  "hour_sin",
+  "hour_cos",
+  "ambient_temp_c",
+  "humidity_pct",
+  "solar_irradiance_wm2",
+  "cooling_demand_delta",
+  "heating_demand_delta",
+  "heat_index_proxy",
+  "solar_temp_product"
+]
